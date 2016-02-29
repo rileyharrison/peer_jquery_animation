@@ -1,0 +1,58 @@
+html, body, h1, h2, h3, ol, ul, li, a {
+      padding: 0;
+      border: 0;
+      margin: 0;
+}
+
+html {
+  background-color: #b7907c;
+}
+
+body {
+  color: white;
+}
+
+.create-button {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  border-radius: 5px;
+  background-color: grey;
+  border-style: none;
+}
+
+.properties {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.property {
+  padding: 5px 5px 5px 5px;
+  background-color: #aa8c5a;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.property p {
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.remove {
+  position: relative;
+  top: -3px;
+  font-size: 16px;
+  color: white;
+  float: right;
+  border-radius: 5px;
+  background-color: grey;
+  border-style: none;
+}
